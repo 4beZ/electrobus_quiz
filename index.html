@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css"
+      rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img
+      class="lightning"
+      src="https://coddmac.store/KIDSTRANSPORT/lightning_1.svg"
+      alt="ligthning" />
+    <img
+      class="lightning"
+      src="https://coddmac.store/KIDSTRANSPORT/lightning_2.svg"
+      alt="ligthning" />
+    <img
+      class="lightning"
+      src="https://coddmac.store/KIDSTRANSPORT/lightning_3.svg"
+      alt="ligthning" />
+
+    <div class="wrapper electrobusik">
+      <main class="main">
+        <div class="quiz__popup quiz_advice hidden">
+          <div class="quiz__popup__advice">
+            <p class="quiz_advice_text"></p>
+            <button class="quiz__next-btn">Следующий вопрос</button>
+            <div class="quiz_advice_tr"></div>
+          </div>
+          <img
+            class="quiz_coach_img"
+            src="https://coddmac.store/KIDSTRANSPORT/waiting.svg"
+            alt="coach image" />
+        </div>
+        <!-- Предупреждение -->
+        <div class="warning hidden">
+          В тесте нет вопросов, <br />
+          заполните и возвращайтесь!
+        </div>
+
+        <!-- Тест на skills верстальщика -->
+        <div class="quiz hidden">
+          <div class="quiz_info">
+            <h2 class="quiz__header-title"></h2>
+            <div class="quiz__total">
+              <!-- Задаем значение в JavaScript -->
+            </div>
+          </div>
+          <!-- <div class="quiz__progress">
+                  <div class="quiz__progress-inner"></div>
+              </div> -->
+          <div class="quiz__content">
+            <h3 class="quiz__title">
+              <!-- Задаем значение в JavaScript -->
+            </h3>
+            <ul class="quiz__list">
+              <!-- Задаем значение в JavaScript -->
+            </ul>
+          </div>
+
+          <!-- Помощник -->
+          <div class="quiz_coach">
+            <img
+              class="quiz_coach_img"
+              src="https://coddmac.store/KIDSTRANSPORT/waiting.svg"
+              alt="coach image" />
+            <div class="quiz_advice hidden">
+              <p class="quiz_advice_text"></p>
+
+              <button class="quiz__next-btn">Следующий вопрос</button>
+
+              <div class="quiz_advice_tr"></div>
+            </div>
+          </div>
+
+          <div class="quiz__footer quiz_advice hidden">
+            <div class="quiz_advice_text"></div>
+            <button class="quiz__next-btn">Далее</button>
+          </div>
+        </div>
+
+        <!-- Выводим результаты теста -->
+        <div class="result hidden">
+          <div class="result__info">
+            <div class="result__percent">
+              <b>70-89% правильных ответов</b>
+            </div>
+            <div class="result__text">
+              <h1>Выпускник института хороших манер</h1>
+              <b>
+                Поздравляю! Ты&nbsp;хорошо знаешь правила поведения
+                в&nbsp;транспорте. До&nbsp;высшего балла не&nbsp;хватило совсем
+                чуть-чуть. Уверен, у&nbsp;тебя всё получится!
+              </b>
+            </div>
+            <div class="result__btn">
+              <button class="result__restart">Ещё раз</button>
+              <button class="result__exit">Завершить</button>
+            </div>
+          </div>
+          <div class="result__img">
+            <img
+              src="https://coddmac.store/KIDSTRANSPORT/result70.svg"
+              alt="" />
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
